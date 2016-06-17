@@ -27,7 +27,7 @@ a {
     color: @theme-primary;
     &:hover,
     &:focus {
-        color: darken(@theme-primary, 10%);
+        color: @theme-focus;
     }
 }
 
@@ -85,7 +85,7 @@ aside {
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken(@theme-primary, 10%);
+            color: @theme-focus;
         }
     }
     .nav {
@@ -137,7 +137,7 @@ aside {
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken(@theme-primary, 10%);
+                    color: @theme-focus;
                 }
             }
             .nav > li > a,
@@ -159,7 +159,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/jupiter-spot.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -167,6 +167,7 @@ header {
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
+        overflow: auto;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -179,7 +180,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: rgba(0, 104, 179, .9);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -217,12 +218,31 @@ header {
 
 .partners-box {
     max-width: 400px;
+    text-align: center;
     margin: 50px auto 0;
     @media (min-width: 992px) {
         margin: 20px auto 0;
     }
     p {
         margin-bottom: 0;
+    }
+    img {
+        height: 200px;
+    }
+}
+
+.funding-box {
+    margin: 50px auto 0;
+    text-align: center;
+    max-width: 400px;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    img {
+        width: 300px;
     }
 }
 
@@ -235,7 +255,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: fade(@theme-primary, 90%);
+        background: rgba(240,95,64,.9);
         position: absolute;
         bottom: 0;
         text-align: center;
