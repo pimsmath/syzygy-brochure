@@ -1,4 +1,4 @@
-# Exploring an Jupyter.ca Website
+# Exploring an Syzygy.ca Website
 
 
 ## Acknowledgement
