@@ -1,4 +1,4 @@
-# Exploring an Syzygy.ca Website
+# Exploring a Syzygy.ca Website
 
 
 ## Acknowledgement
