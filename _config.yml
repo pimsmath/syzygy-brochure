@@ -22,10 +22,10 @@ t:
     fr:
       - name: 'À propos'
         url: '#about'
-      - name: 'Parenaires'
+      - name: 'Partenaires'
         url: '#partners'
-      - name: 'Intro'
-        url: '#intro'
+      - name: 'Ouverture de session'
+        url: 'http://intro.syzygy.ca'
   header:
     heading:
       en: "Launch Jupyter at your university, school or company?"
@@ -46,7 +46,7 @@ t:
   about:
     what:
       en: 'What is Jupyter?'
-      fr: "Quest-ce que Jupyter?"
+      fr: "Qu'est-ce que Jupyter?"
       items:
         - text:
             en: 'Interactive computing environment'
@@ -62,7 +62,7 @@ t:
           class: 'fa fa-flask'
     where:
       en: 'Where? How? Why?'
-      fr: 'Où? Comment? Porquoi?'
+      fr: 'Où? Comment? Pourquoi?'
       items:
         - text:
             en: 'Hosted by Compute Canada and Cybera'
