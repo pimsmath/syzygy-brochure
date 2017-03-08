@@ -1,0 +1,26 @@
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="funding-box">
+                <h2 class="section-heading"><i class="fa  fa-4x"></i></h2>
+                <h2 class="section-heading">{{ site.t.about.what[page.lang] }}</h2>
+                <hr class="light">
+                {% for item in site.t.about.what.items %}
+                  <p class="text"><i class="{{ item.class }}" aria-hidden="true"></i>{{ item.text[page.lang] }}</p>
+                {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="funding-box">
+                <h2 class="section-heading"><i class="fa  fa-4x"></i></h2>
+                <h2 class="section-heading">{{ site.t.about.where[page.lang] }}</h2>
+                <hr class="light">
+                {% for item in site.t.about.where.items %}
+                  <p class="text"><i class="{{ item.class }}" aria-hidden="true"></i>{{ item.text[page.lang] }}</p>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

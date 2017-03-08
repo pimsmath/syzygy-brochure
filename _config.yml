@@ -1,0 +1,68 @@
+title:
+  en: "syzygy.ca"
+  fr: "syzygy.ca"
+description:
+  en: "Syzygy.ca -- A computation service making Jupyter notebooks available to Canadian scientists."
+  fr: "Syzygy.ca -- Un service de calcul rendant les cahiers de Jupyter accessibles aux scientifiques canadiens."
+email: "jupyter@pims.math.ca"
+url: "http://syzygy.ca"
+author: "Ian Allison"
+exclude: ["publish.sh"]
+version: 0.0.1
+
+t:
+  nav:
+    en:
+      - name: 'About'
+        url: '#about'
+      - name: 'Partners'
+        url: '#partners'
+      - name: 'Intro'
+        url:  '#intro'
+    fr:
+      - name: 'À propos'
+        url: '#about'
+      - name: 'Parenaires'
+        url: '#partners'
+      - name: 'Intro'
+        url: '#intro'
+  about:
+    what:
+      en: 'What is Jupyter?'
+      fr: "Qu'est-ce que Jupyter?"
+      items:
+        - text:
+            en: 'Interactive computing environment'
+            fr: 'Un environnement informatique interactif'
+          class: 'fa fa-book'
+        - text:
+            en: 'Research tools accessed via browser'
+            fr: 'Des outils de recherche accessibles dans un navigateur'
+          class: 'fa fa-cloud'
+        - text:
+            en: 'Julia, Python, R'
+            fr: 'Julia, Python, R'
+          class: 'fa fa-flask'
+    where:
+      en: 'Where? How? Why?'
+      fr: 'Où? Comment? Porquoi?'
+      items:
+        - text:
+            en: 'Hosted by Compute Canada and Cybera'
+            fr: 'Hébergé par Calcul Canada et Cybera'
+          class: 'fa fa-cogs'
+        - text:
+            en: 'Integrated with your single-sign-on system'
+            fr: "Intégré à votre systéme d'authentifacation unique"
+          class: 'fa fa-university'
+        - text:
+            en: 'Built for collaboration'
+            fr: 'Conçu pour la collaboration'
+          class: 'fa fa-users'
+  partners:
+    title:
+      en: 'Your Solution Partners'
+      fr: 'Partenaires de vos Solutions'
+  solutions:
+    en: 'Find Solutions'
+    fr: 'Trouvez de solutions'
