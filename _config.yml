@@ -26,10 +26,27 @@ t:
         url: '#partners'
       - name: 'Intro'
         url: '#intro'
+  header:
+    heading:
+      en: "Launch Jupyter at your university, school or company?"
+      fr: "Voulez-vous lancer Jupyter dans votre université, votre école ou votre enterprise?"
+    form:
+      name:
+        en: "Your name"
+        fr: "Votre nom"
+      email:
+        en: "Your email"
+        fr: "Votre adresse courriel"
+      message:
+        en: "Your message"
+        fr: "Votre message"
+      button:
+        en: "Send"
+        fr: "Envoyer"
   about:
     what:
       en: 'What is Jupyter?'
-      fr: "Qu'est-ce que Jupyter?"
+      fr: "Quest-ce que Jupyter?"
       items:
         - text:
             en: 'Interactive computing environment'
@@ -59,6 +76,13 @@ t:
             en: 'Built for collaboration'
             fr: 'Conçu pour la collaboration'
           class: 'fa fa-users'
+  service:
+    title:
+      en: 'Code, Analyze, Collaborate, Discover'
+      fr: 'Coder, Analyser, Collaborer, Découvrir'
+    description:
+      en: 'The Pacific Institute for the Mathematical Sciences, Compute Canada and Cybera are collaborating to deliver Jupyter to researchers, educators and innovators across Canada.'
+      fr: 'Le Pacific Institute for the Mathematical Sciences, Calcul Canada et Cybera collaborent pour offrir Jupyter aux chercheurs, aux éducateurs et aux innovateurs à la grandeur du Canada.'
   partners:
     title:
       en: 'Your Solution Partners'
