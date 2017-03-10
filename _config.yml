@@ -8,7 +8,7 @@ email: "jupyter@pims.math.ca"
 url: "http://syzygy.ca"
 author: "Ian Allison"
 exclude: ["publish.sh"]
-version: 0.0.1
+version: 0.0.2
 
 t:
   nav:
