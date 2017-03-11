@@ -18,7 +18,7 @@ t:
       - name: 'Partners'
         url: '#partners'
       - name: 'Intro'
-        url:  '#intro'
+        url:  'intro.syzygy.ca'
     fr:
       - name: 'À propos'
         url: '#about'
