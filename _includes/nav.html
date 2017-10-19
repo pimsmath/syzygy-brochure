@@ -20,6 +20,35 @@
           <a class="page-scroll" href="{{ menu.url }}">{{ menu.name }}</a>
           </li>
         {% endfor %}
+          <li>
+              <div class="dropdown">
+              <button class="btn btn-primary btn-sm navbar-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                  {{ site.t.nav.button[page.lang] }}
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="https://sfu.syzygy.ca">SFU</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://ubc.syzygy.ca">UBC</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://ucalgary.syzygy.ca">UCalgary</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://uleth.syzygy.ca">ULeth</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://usask.syzygy.ca">USask</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://utoronto.syzygy.ca">UToronto</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://uvic.syzygy.ca">UVic</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://uwaterloo.syzygy.ca">UWaterloo</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://cybera.syzygy.ca">Cybera (google)</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://pims.syzygy.ca">PIMS (google)</a>
+              </div>
+              </div>
+          </li>
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
           <li>
