@@ -17,8 +17,6 @@ t:
         url: '#about'
       - name: 'Partners'
         url: '#partners'
-      - name: 'Hubs'
-        url: '#hubs'
       - name: 'Intro'
         url:  'http://intro.syzygy.ca'
     fr:
@@ -26,8 +24,6 @@ t:
         url: '#about'
       - name: 'Partenaires'
         url: '#partners'
-      - name: 'Hubs'
-        url: '#hubs'
       - name: 'Ouverture de session'
         url: 'http://intro.syzygy.ca'
     button:
