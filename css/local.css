@@ -7,4 +7,9 @@ div#gmap-holder iframe {
 }
 div#gmap-holder ul {
     font-size: 2rem;
+    text-align: center;
+}
+
+div#gmap-holder ul li {
+    display: inline-block;
 }
