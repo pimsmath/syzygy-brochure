@@ -15,7 +15,7 @@ t:
     en:
       - name: 'About'
         url: '#about'
-      - name: 'Map'
+      - name: 'Network'
         url: '#gmap-holder'
       - name: 'Partners'
         url: '#partners'
@@ -24,7 +24,7 @@ t:
     fr:
       - name: 'À propos'
         url: '#about'
-      - name: 'Map'
+      - name: 'Réseau'
         url: '#gmap-holder'
       - name: 'Partenaires'
         url: '#partners'
