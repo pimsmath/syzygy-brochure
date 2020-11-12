@@ -15,7 +15,7 @@ t:
     en:
       - name: 'About'
         url: '#about'
-      - name: 'Map'
+      - name: 'Network'
         url: '#gmap-holder'
       - name: 'Partners'
         url: '#partners'
@@ -24,7 +24,7 @@ t:
     fr:
       - name: 'À propos'
         url: '#about'
-      - name: 'Map'
+      - name: 'Réseau'
         url: '#gmap-holder'
       - name: 'Partenaires'
         url: '#partners'
@@ -50,6 +50,20 @@ t:
       button:
         en: "Send"
         fr: "Envoyer"
+  map:
+    title:
+      en: "Our Network"
+      fr: "Notre réseau"
+    stats:
+      users:
+        en: 34000+ Users
+        fr: 34000+ Utilisateurs
+      institutions:
+        en: 25+ Institutions
+        fr: 25+ Institutions
+      provinces:
+        en: 7 &#127464;&#127462; Provinces, 1 &#127482;&#127480; State
+        fr: 7 &#127464;&#127462; Provinces, 1 &#127482;&#127480; État
   about:
     what:
       en: 'What is Jupyter?'
