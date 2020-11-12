@@ -1,0 +1,24 @@
+section#gmap {
+    padding-top: 60px;
+}
+ 
+div#gmap-holder {
+    min-height: 100%;
+}
+div#gmap-holder iframe {
+    height: 70vh;
+    width: 100vh;
+}
+
+div#gmap-holder ul.fa-ul {
+    font-size: 2rem;
+}
+
+ul.fa-ul {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.fa-ul>li {
+    display: inline-block;
+}
