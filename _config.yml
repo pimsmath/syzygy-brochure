@@ -5,7 +5,7 @@ description:
   en: "Syzygy.ca -- A computation service making Jupyter notebooks available to Canadian scientists."
   fr: "Syzygy.ca -- Un service de calcul rendant les cahiers de Jupyter accessibles aux scientifiques canadiens."
 email: "jupyter@pims.math.ca"
-url: "http://syzygy.ca"
+url: "https://syzygy.ca"
 author: "Ian Allison"
 exclude: ["publish.sh"]
 version: 0.0.2
