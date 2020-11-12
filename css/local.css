@@ -2,7 +2,7 @@ div#gmap-holder {
     min-height: 100%;
 }
 div#gmap-holder iframe {
-    height: 100vh;
+    height: 75vh;
     width: 100vh;
 }
 div#gmap-holder ul {
