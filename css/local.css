@@ -1,8 +1,12 @@
+section#gmap {
+    padding-top: 60px;
+}
+ 
 div#gmap-holder {
     min-height: 100%;
 }
 div#gmap-holder iframe {
-    height: 75vh;
+    height: 70vh;
     width: 100vh;
 }
 
