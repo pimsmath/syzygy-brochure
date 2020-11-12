@@ -5,11 +5,16 @@ div#gmap-holder iframe {
     height: 75vh;
     width: 100vh;
 }
-div#gmap-holder ul {
+
+div#gmap-holder ul.fa-ul {
     font-size: 2rem;
+}
+
+ul.fa-ul {
+    font-size: 1.75rem;
     text-align: center;
 }
 
-div#gmap-holder ul li {
+.fa-ul>li {
     display: inline-block;
 }
