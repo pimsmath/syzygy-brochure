@@ -23,7 +23,7 @@ echo "Removing existing files"
 rm -rf _site/*
 
 echo "Generating site"
-jekyll build
+bundle exec jekyll build
 
 echo "Updating gh-pages branch"
 cd _site && git add --all && git commit -m "Publishing _site to gh-pages" && git push
