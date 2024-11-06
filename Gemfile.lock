@@ -300,6 +300,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  commonmarker (>= 0.23.9)
   github-pages
   jekyll (~> 3)
   nokogiri (>= 1.15.6)
