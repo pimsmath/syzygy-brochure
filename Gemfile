@@ -5,3 +5,4 @@ gem 'nokogiri', ">= 1.15.6"
 
 gem "webrick", "~> 1.8.2"
 gem "rexml", ">= 3.3.9"
+gem "commonmarker", ">= 0.23.9"
